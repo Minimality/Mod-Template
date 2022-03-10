@@ -3,10 +3,10 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Template Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "Your Name Here"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "io.github.yournamehere.modid.ExampleMod"
     ]
   },
   "mixins": [
@@ -33,6 +33,7 @@
     "java": ">=17"
   },
   "suggests": {
+    "minimality": "*",
     "another-mod": "*"
   }
 }
